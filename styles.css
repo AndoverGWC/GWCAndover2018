@@ -1,3 +1,37 @@
-h1 {
-  color: fuchsia;
-}
+body {background-color:	#698F95;}
+
+p {text-align:center;
+font-size:25px; color:#972C3B;}
+
+	a, a:link{font-size:25px;
+	display:block;
+	text-decoration:none;
+	color:black;
+	text-align:center;
+    
+	background-color: pink;}
+	
+	#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid #ccc; }
+#nav li {
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 20px 73px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; }
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; display: flex;
+  justify-content: space-around;}
+	
+	
+	.AboutGame {text-indent:35px; font-size:25px;
+    color:black; text-align:left;}
