@@ -50,6 +50,16 @@ body
 }
 
 h1
+{margin: 0px, 0 0 0px;
+  padding: 0;
+  font-family: calibri;
+  
+  color: #fff;
+  font-size: 5em;
+}
+  
+
+h2
 {
   margin: 250px 0 0 400px;
   padding: 0;
@@ -59,26 +69,26 @@ h1
 }
 span:before
 {
-  content: 'brave';
+  content: 'BRAVE';
   animation: animate infinite 8s
 }
 @keyframes animate
 {
   0%
   {
-    content: 'brave';
+    content: 'BRAVE';
   }
   25%
   {
-    content: 'strong';
+    content: 'STRONG';
   }
   50%
   {
-    content: 'intelligent';
+    content: 'INTELLIGENT';
   }
   75%
   {
-    content: 'gamers';
+    content: 'GAMERS';
   }
   100%
   {
